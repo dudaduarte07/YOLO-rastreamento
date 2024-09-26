@@ -8,4 +8,4 @@ model_segment = YOLO('yolov8n-seg.pt')
 model_keypoints = YOLO('yolov8n-pose.pt')
 
 # é possível passar links de vídeos também
-results = model_keypoints.track(source="C:/Users/maria/CODIGOS/YOLO/rastreamentoObjetos/36510-411342239_small.mp4", save=True, stream=True)
+results = model_keypoints.track(source="C:/Users/maria/CODIGOS/YOLO/rastreamentoObjetos/36510-411342239_small.mp4", save=True)
